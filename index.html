@@ -1,45 +1,32 @@
 <!DOCTYPE html>
 <html lang="ja" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Utsuhology</title>
-    <link rel="stylesheet" type="text/css" href="css/common.css">
-  </head>
-  <body>
-    <bar></bar>
-    <div class="content">
-      <p>はい</p>
-      <p>はい</p>
-      <p>はい</p>
-      <p>はい</p>
-      <p>はい</p>
-      <p>はい</p>
-      <p>はい</p>
-      <p>はい</p>
-      <p>はい</p>
-      <p>はい</p>
-      <p>はい</p>
-      <p>はい</p>
-      <p>はい</p>
-      <p>はい</p>
-      <p>はい</p>
-      <p>はい</p>
-      <p>はい</p>
-      <p>はい</p>
-      <p>はい</p>
-      <p>はい</p>
-      <p>はい</p>
-      <p>はい</p>
-      <p>はい</p>
-      <p>はい</p>
-      <p>はい</p>
-      <p>はい</p>
-      <p>はい</p>
-      <p>はい</p>
-    </div>
+<head>
+  <meta charset="utf-8">
+  <title>Utsuhology</title>
+  <link rel="stylesheet" type="text/css" href="_common/style.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="_common/libs/p5.min.js"></script>
+  <script src="_common/js/util.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+  <bar></bar>
+  <div class="main">
+    <div id="randomSketch"></div>
 
-    <script type="riot/tag" src="tags/bar.tag"></script>
-    <script src="libs/riot+compiler.min.js"></script>
-    <script>riot.mount('*');</script>
-  </body>
+    <div id="field" oncontextmenu="return false;">
+    </div>
+    <p class="content">- Utsuhology -</p>
+
+    <script>
+    let script=document.createElement("script");
+    script.src="randomSketches/sketch_"+getRandomInt(2)+".js";
+    document.querySelector("#randomSketch").appendChild(script);
+    </script>
+  </div>
+
+  <script type="riot/tag" src="_common/tags/bar.tag"></script>
+  <script src="_common/libs/riot+compiler.min.js"></script>
+  <script>riot.mount('*');</script>
+</body>
 </html>
