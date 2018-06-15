@@ -5,24 +5,13 @@
   <title>Utsuhology</title>
   <link rel="stylesheet" type="text/css" href="/common/style.css">
   <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="/common/libs/p5.min.js"></script>
   <script src="/common/js/util.js"></script>
   <script src="script.js"></script>
 </head>
 <body>
   <bar></bar>
   <div class="main">
-    <div id="randomSketch"></div>
-
-    <div id="field" oncontextmenu="return false;">
-    </div>
     <p class="content">- Utsuhology -</p>
-
-    <script>
-    let script=document.createElement("script");
-    script.src="randomSketches/sketch_"+getRandomInt(2)+".js";
-    document.querySelector("#randomSketch").appendChild(script);
-    </script>
   </div>
 
   <script type="riot/tag" src="/common/tags/bar.tag"></script>
