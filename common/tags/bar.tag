@@ -55,7 +55,7 @@
   <div class="bar">
     <div class="hamburger content" onclick="{open}">
     </div>
-    <a href="product" class="content"><img src="/common/imgs/me.png" height="50px"></a>
+    <a href="/" class="content"><img src="/common/imgs/me.png" height="50px"></a>
     <a href="#" class="content"><img src="/common/imgs/me.png" height="50px"></a>
     <a href="#" class="contentRight"><img src="/common/imgs/me.png" height="50px"></a>
   </div>

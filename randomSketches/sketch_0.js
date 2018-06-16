@@ -6,7 +6,9 @@ let h=0,s=0,b=0;
 function setup(){
   p5Canvas=createCanvas(800,500);
   p5Canvas.parent("field");
+
   document.querySelector("#field").style.width=width+"px";
+  document.querySelector("#field").style.height=height+"px";
 
   colorMode(HSB,255);
 }
@@ -21,11 +23,13 @@ function draw(){
   noFill();
   ellipse(mouseX,mouseY,40,40);
 
-  fill(255,100);
+  fill(255,random(200));
   noStroke();
   textAlign(CENTER,CENTER);
   textSize(100);
-  text(funis.length,width/2,height/2);
+  text("Vapor",width/2,height/2);
+  textSize(50);
+  text(funis.length,width/2,height/4*3);
 
   if(mouseIsPressed && mouseIsIn()){
     if(mouseButton==LEFT && funis.length<200){

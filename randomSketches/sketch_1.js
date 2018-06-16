@@ -1,11 +1,10 @@
 let p5Canvas;
 
-let pFrame;
-
 function setup(){
   p5Canvas=createCanvas(800,500);
   p5Canvas.parent("field");
   document.querySelector("#field").style.width=width+"px";
+  document.querySelector("#field").style.height=height+"px";
 
   background(0);
 }
