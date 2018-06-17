@@ -32,11 +32,11 @@ function draw(){
   text(funis.length,width/2,height/4*3);
 
   if(mouseIsPressed){
-    if(true/*mouseButton==LEFT && funis.length<200*/){
+    if(mouseButton==RIGHT && funis.length>0){
+      funis.shift();
+    }else if(funis.length<200){
       let funi=new Funi(mouseX,mouseY,radians(random(360)),10,200);
       funis.push(funi);
-    }else if(mouseButton==RIGHT && funis.length>0){
-      funis.shift();
     }
   }
 
