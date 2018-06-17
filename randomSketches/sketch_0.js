@@ -31,8 +31,8 @@ function draw(){
   textSize(50);
   text(funis.length,width/2,height/4*3);
 
-  if(mouseIsPressed && mouseIsIn()){
-    if(mouseButton==LEFT && funis.length<200){
+  if(mouseIsPressed){
+    if(true/*mouseButton==LEFT && funis.length<200*/){
       let funi=new Funi(mouseX,mouseY,radians(random(360)),10,200);
       funis.push(funi);
     }else if(mouseButton==RIGHT && funis.length>0){
@@ -44,13 +44,6 @@ function draw(){
     funi.step();
     funi.display();
   }
-}
-
-//--
-
-function mouseIsIn(){
-  if(mouseX>=0 && mouseX<width && mouseY>=0 && mouseY<height) return true;
-  return false;
 }
 
 //--
