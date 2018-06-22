@@ -56,8 +56,8 @@
     <div class="hamburger content" onclick="{open}">
     </div>
     <a href="/" class="content"><img src="/common/imgs/me.png" height="50px"></a>
-    <a href="#" class="content"><img src="/common/imgs/me.png" height="50px"></a>
-    <a href="#" class="contentRight"><img src="/common/imgs/me.png" height="50px"></a>
+    <a href="#" class="content"><img src="/common/imgs/logo3.png" height="50px"></a>
+    <a href="#" class="contentRight"><img src="/common/imgs/arrow.png" height="50px"></a>
   </div>
   <div class="menu" ref="menu">
     <div class="hamburger" onclick="{close}">
