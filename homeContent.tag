@@ -12,7 +12,6 @@
     text-align: left;
     padding: 0 20px;
     width: 160px; height: 200px;
-    background-color: #dddddd;
   }
 
   #meImg{
