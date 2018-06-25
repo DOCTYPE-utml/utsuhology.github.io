@@ -1,6 +1,6 @@
 <homeContent>
   <style>
-  div{
+  .content{
     position: absolute;
     width: 800px;
     overflow: auto;
@@ -12,6 +12,7 @@
     text-align: left;
     padding: 0 20px;
     width: 160px; height: 200px;
+    background-color: #dddddd;
   }
 
   #meImg{
