@@ -9,7 +9,6 @@ html,body{
   position: absolute;
   top: 50px; left: 50%;
   transform: translateX(-50%);
-  width: 1000px;
   text-align: center;
   background-color: #ffffff;
 }

@@ -2,24 +2,24 @@
   <style>
   .content{
     position: absolute;
-    width: 800px;
-    overflow: auto;
+    width: 1000px;
+    overflow: visible;
   }
 
   .textSquere{
     position: relative;
     text-align: left;
     display: inline-block;
-    width: 800px; height: auto;
+    width: 80%; height: auto;
     margin: 0; padding: 0;
   }
 
   .skillTextSquere{
-    width: 300px;
+    width: 30%;
   }
   </style>
 
-  <div class="content">
+  <div class="content" ref="content">
     <h1>Utsuhology</h1>
     <hr>
     <p>About me!</p>
@@ -57,6 +57,13 @@
   </div>
 
   <script>
-
+  this.on('mount', function() {
+    if(window.innerWidth<1000) this.refs.content.style.width=window.innerWidth+"px";
+    else this.refs.content.style.width="1000px";
+  });
+  window.addEventListener("resize",(function(e){
+    if(window.innerWidth<1000) this.refs.content.style.width=window.innerWidth+"px";
+    else this.refs.content.style.width="1000px";
+  }).bind(this));
   </script>
 </meContent>

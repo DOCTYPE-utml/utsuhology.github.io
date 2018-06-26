@@ -20,7 +20,7 @@
   }
   </style>
 
-  <div class="content">
+  <div class="content" ref="content">
     <a href="#"><img src="/common/imgs/logo3.png" height="50px"></a>
     <p>ふわふわ自己表現</p>
     <img id="meImg" src="/common/imgs/me.png" height="200px">
@@ -42,6 +42,5 @@
   </div>
 
   <script>
-
   </script>
 </homeContent>
