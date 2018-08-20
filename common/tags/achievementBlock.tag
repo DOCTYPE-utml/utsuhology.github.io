@@ -5,26 +5,28 @@
     text-align: left;
     display: inline-block;
     width: 100%; height: auto;
-    margin: 10px 0px; padding: 0;
+    margin: 10px 0; padding: 0;
     background-color: #eeeeee;
     box-sizing: border-box;
   }
 
+  p{
+    margin: 15px;
+  }
+
   img{
-    margin: 10px;
-    height: 200px;
+    margin: 15px;
   }
   </style>
 
-  <div ref="unchi">
+  <div>
     <p>{date}</p>
-    <p>{text}</p>
+    <p><yield/></p>
     <img if={img} src="{img}">
   </div>
 
   <script>
   this.date=opts.date;
-  this.text=opts.text;
   this.img=opts.img;
   </script>
 </achievementBlock>

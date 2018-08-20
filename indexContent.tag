@@ -1,4 +1,4 @@
-<homeContent>
+<indexContent>
   <style>
   .content{
     position: absolute;
@@ -8,9 +8,10 @@
 
   .textSquere{
     position: relative;
-    float: left;
     text-align: left;
     padding: 0 20px;
+    display: table-cell;
+    vertical-align: middle;
     width: 160px; height: 200px;
   }
 
@@ -43,4 +44,4 @@
 
   <script>
   </script>
-</homeContent>
+</indexContent>

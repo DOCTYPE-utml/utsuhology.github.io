@@ -5,29 +5,18 @@
     width: 1000px;
     overflow: auto;
   }
-
-  ul{
-    position: relative;
-    float: left;
-    left: 50%;
-  }
-  li{
-    position: relative;
-    left: -50%;
-  }
   </style>
 
   <div class="content" ref="content">
     <h1>random achievement</h1>
     <hr>
-    <ul>
-      <li><a href="/generalAchievement">general achievement</a></li>
-      <li><a href="/randomAchievement">random achievement</a></li>
-    </ul>
+    <p>単にうれしかったこと。しょぼいことも書きます</p>
+    <p><a href="/generalAchievement">general achievement</a> / <a href="/randomAchievement">random achievement</a></p>
     <br>
-    <achievementBlock date="2018/6/31" text="しゅうまい君に拾われた" img="/common/imgs/me.png"></achievementBlock>
-    <achievementBlock date="2018/6/31" text="しゅうまい君に拾われた"></achievementBlock>
-    <achievementBlock date="2018/6/31" text="しゅうまい君に拾われた"></achievementBlock>
+      <achievementBlock date="2018/4/20" img="imgs/334.png">
+        334 top獲得！<br>
+        <a href="https://twitter.com/Utsuhology/status/987398994811699200" target="_blank">当該ツイート</a> <a href="https://twitter.com/334_Ranker/status/987399377118523392" target="_blank">らんきんぐ</a>
+      </achievementBlock>
   </div>
 
   <script>

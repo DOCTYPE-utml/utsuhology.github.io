@@ -23,7 +23,7 @@
     position: relative;
     top: 0; left: 0;
     width: 50px; height: 50px;
-    background-color: #dddddd;
+    /*background-color: #ffffff;*/
   }
   .menu{
     position: fixed;
@@ -54,13 +54,15 @@
 
   <div class="bar">
     <div class="hamburger content" onclick="{open}">
+      <img src="/common/imgs/hamburger.png" height="50px">
     </div>
-    <a href="/" class="content"><img src="/common/imgs/me.png" height="50px"></a>
-    <a href="#" class="content"><img src="/common/imgs/logo3.png" height="50px"></a>
-    <a href="#" class="contentRight"><img src="/common/imgs/arrow.png" height="50px"></a>
+    <a href="#" class="content"><img src="/common/imgs/me.png" height="50px"></a>
+    <a href="/" class="content"><img src="/common/imgs/logo3.png" height="50px"></a>
+    <div class="contentRight" onclick="window.scrollTo(0,0);"><img src="/common/imgs/arrow.png" height="50px"></div>
   </div>
   <div class="menu" ref="menu">
     <div class="hamburger" onclick="{close}">
+      <img src="/common/imgs/hamburger.png" height="50px">
     </div>
   </div>
   <div class="cover" ref="cover" onclick="{close}">
