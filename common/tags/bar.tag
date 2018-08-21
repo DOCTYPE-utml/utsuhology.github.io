@@ -58,7 +58,7 @@
     </div>
     <a href="#" class="content"><img src="/common/imgs/me.png" height="50px"></a>
     <a href="/" class="content"><img src="/common/imgs/logo3.png" height="50px"></a>
-    <div class="contentRight" onclick="window.scrollTo(0,0);"><img src="/common/imgs/arrow.png" height="50px"></div>
+    <div class="contentRight" onclick="{scroll}"><img src="/common/imgs/arrow.png" height="50px"></div>
   </div>
   <div class="menu" ref="menu">
     <div class="hamburger" onclick="{close}">
@@ -76,6 +76,12 @@
   this.close=function(){
     this.refs.menu.classList.remove("appear");
     this.refs.cover.classList.remove("appear");
+  }
+  this.scroll=function(){
+    let pScrollTop=document.scrollingElement.scrollTop;
+    document.scrollingElement.animate({
+      scrollTop: [300,0]
+    },1000);
   }
   </script>
 </bar>

@@ -3,10 +3,15 @@
 <head>
   <meta charset="utf-8">
   <title>Utsuhology</title>
+
   <link rel="stylesheet" type="text/css" href="/common/style.css">
   <link rel="stylesheet" type="text/css" href="style.css">
   <script src="/common/js/util.js"></script>
   <script src="script.js"></script>
+  <script src="/common/libs/riot+compiler.min.js"></script>
+  <script type="riot/tag" src="/common/tags/bar.tag"></script>
+
+  <script type="riot/tag" src="meContent.tag"></script>
 </head>
 <body>
   <bar></bar>
@@ -15,9 +20,6 @@
     <p class="foot">- Utsuhology -</p>
   </div>
 
-  <script type="riot/tag" src="/common/tags/bar.tag"></script>
-  <script type="riot/tag" src="meContent.tag"></script>
-  <script src="/common/libs/riot+compiler.min.js"></script>
   <script>riot.mount('*');</script>
 </body>
 </html>
