@@ -4,6 +4,10 @@
     user-select: none;
     z-index: 100;
   }
+  .content{
+    float: left;
+    margin: 0;
+  }
 
   .bar{
     position: fixed;
@@ -12,11 +16,9 @@
     border: 1px solid #dddddd;
     background-color: #ffffff;
   }
-  .bar .content{
-    float: left;
-  }
   .bar .contentRight{
     float: right;
+    margin: 0;
   }
 
   .hamburger{

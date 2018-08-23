@@ -1,11 +1,11 @@
 <achievementBlock>
   <style>
-  div{
-    position: relative;
+  .content{
+    width: 100%;
     text-align: left;
+    margin: 10px auto;
     display: inline-block;
-    width: 100%; height: auto;
-    margin: 10px 0; padding: 0;
+    height: auto;
     background-color: #eeeeee;
     box-sizing: border-box;
   }
@@ -19,7 +19,7 @@
   }
   </style>
 
-  <div>
+  <div class="content">
     <p>{date}</p>
     <p><yield/></p>
     <img if={img} src="{img}">

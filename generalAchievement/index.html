@@ -10,15 +10,15 @@
   <script src="script.js"></script>
   <script src="/common/libs/riot+compiler.min.js"></script>
   <script type="riot/tag" src="/common/tags/bar.tag"></script>
+  <script type="riot/tag" src="mainContent.tag"></script>
 
   <script type="riot/tag" src="/common/tags/achievementBlock.tag"></script>
-  <script type="riot/tag" src="generalAchievementContent.tag"></script>
 </head>
 <body>
   <bar></bar>
   <div class="main">
-    <generalAchievementContent></generalAchievementContent>
-    <p class="foot">- Utsuhology -</p>
+    <mainContent></mainContent>
+    <p>- Utsuhology -</p>
   </div>
 
   <script>riot.mount('*');</script>

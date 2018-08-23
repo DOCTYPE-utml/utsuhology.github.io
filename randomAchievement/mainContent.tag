@@ -1,9 +1,7 @@
-<randomAchievementContent>
+<mainContent>
   <style>
   .content{
-    position: absolute;
     width: 1000px;
-    overflow: auto;
   }
   </style>
 
@@ -29,4 +27,4 @@
     else this.refs.content.style.width="1000px";
   }).bind(this));
   </script>
-</randomAchievementContent>
+</mainContent>

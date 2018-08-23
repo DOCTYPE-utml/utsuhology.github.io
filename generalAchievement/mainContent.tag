@@ -1,9 +1,7 @@
-<generalAchievementContent>
+<mainContent>
   <style>
   .content{
-    position: absolute;
-    width: 400px;
-    overflow: visible;
+    width: 1000px;
   }
   </style>
 
@@ -41,4 +39,4 @@
     else this.refs.content.style.width="1000px";
   }).bind(this));
   </script>
-</generalAchievementContent>
+</mainContent>

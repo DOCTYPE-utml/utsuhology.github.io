@@ -1,9 +1,7 @@
-<meContent>
+<mainContent>
   <style>
   .content{
-    position: absolute;
     width: 1000px;
-    overflow: visible;
   }
 
   .textSquere{
@@ -28,7 +26,7 @@
     <p>明治大学総合数理学部先端メディアサイエンス学科3年</p>
     <p>小林研究室　所属</p>
     <p>♰CHUNITHM レート15.2x♰</p>
-    <p>♰SDVX 金枠或帝滅斗♰</p>
+    <p>♰SDVX 後光或帝滅斗♰</p>
     <br>
     <br>
     <h3>introduction</h3>
@@ -66,4 +64,4 @@
     else this.refs.content.style.width="1000px";
   }).bind(this));
   </script>
-</meContent>
+</mainContent>

@@ -4,19 +4,25 @@ html,body{
   font-family: "游ゴシック";
 }
 
+/*
+.main
+bar以外の部分を指す
+barにコンテンツが埋もれるのを防ぐためだけに存在している
+*/
 .main{
   margin: 0;
   position: absolute;
-  top: 50px; left: 50%;
-  transform: translateX(-50%);
+  width: 100%;
+  top: 50px;
   text-align: center;
   background-color: #ffffff;
 }
-.main .content{
+
+/*
+.content
+中央揃えにするブロック（div）の総称
+*/
+.content{
   position: relative;
   margin: 0 auto;
-}
-.main .foot{
-  position: relative;
-  margin: 10px auto;
 }

@@ -1,9 +1,7 @@
-<indexContent>
+<mainContent>
   <style>
   .content{
-    position: absolute;
     width: 800px;
-    overflow: auto;
   }
 
   .textSquere{
@@ -44,4 +42,4 @@
 
   <script>
   </script>
-</indexContent>
+</mainContent>
