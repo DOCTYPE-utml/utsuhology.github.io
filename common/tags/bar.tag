@@ -56,15 +56,15 @@
 
   <div class="bar">
     <div class="hamburger content" onclick="{open}">
-      <img src="/common/imgs/hamburger.png" height="50px">
+      <img src="/utsuhology.github.io/common/imgs/hamburger.png" height="50px">
     </div>
-    <a href="#" class="content"><img src="/common/imgs/me.png" height="50px"></a>
-    <a href="/" class="content"><img src="/common/imgs/logo3.png" height="50px"></a>
-    <div class="contentRight" onclick="{scroll}"><img src="/common/imgs/arrow.png" height="50px"></div>
+    <a href="#" class="content"><img src="/utsuhology.github.io/common/imgs/me.png" height="50px"></a>
+    <a href="/utsuhology.github.io/" class="content"><img src="/utsuhology.github.io/common/imgs/logo3.png" height="50px"></a>
+    <div class="contentRight" onclick="{scroll}"><img src="/utsuhology.github.io/common/imgs/arrow.png" height="50px"></div>
   </div>
   <div class="menu" ref="menu">
     <div class="hamburger" onclick="{close}">
-      <img src="/common/imgs/hamburger.png" height="50px">
+      <img src="/utsuhology.github.io/common/imgs/hamburger.png" height="50px">
     </div>
   </div>
   <div class="cover" ref="cover" onclick="{close}">

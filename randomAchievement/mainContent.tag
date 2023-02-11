@@ -9,7 +9,7 @@
     <h1>random achievement</h1>
     <hr>
     <p>単にうれしかったこと。しょぼいことも書きます</p>
-    <p><a href="/generalAchievement">general achievement</a> / <a href="/randomAchievement">random achievement</a></p>
+    <p><a href="/utsuhology.github.io/generalAchievement">general achievement</a> / <a href="/utsuhology.github.io/randomAchievement">random achievement</a></p>
     <br>
       <achievementBlock date="2018/4/20" img="imgs/334.png">
         334 top獲得！<br>

@@ -9,7 +9,7 @@
     <h1>general achievement</h1>
     <hr>
     <p>真面目な業績です。</p>
-    <p><a href="/generalAchievement">general achievement</a> / <a href="/randomAchievement">random achievement</a></p>
+    <p><a href="/utsuhology.github.io/generalAchievement">general achievement</a> / <a href="/utsuhology.github.io/randomAchievement">random achievement</a></p>
     <br>
       <achievementBlock date="2018/5/27">
         「第一回CHUNITHMオリジナル楽曲コンテスト」に応募<br>

@@ -22,7 +22,7 @@
     <hr>
     <p>About me!</p>
     <br>
-    <img id="meImg" src="/common/imgs/me.png" height="400px">
+    <img id="meImg" src="/utsuhology.github.io/common/imgs/me.png" height="400px">
     <p>明治大学総合数理学部先端メディアサイエンス学科3年</p>
     <p>小林研究室　所属</p>
     <p>♰CHUNITHM レート15.2x♰</p>

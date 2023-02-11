@@ -20,13 +20,13 @@
   </style>
 
   <div class="content" ref="content">
-    <a href="#"><img src="/common/imgs/logo3.png" height="50px"></a>
+    <a href="#"><img src="/utsuhology.github.io/common/imgs/logo3.png" height="50px"></a>
     <p>ふわふわ自己表現</p>
-    <img id="meImg" src="/common/imgs/me.png" height="200px">
+    <img id="meImg" src="/utsuhology.github.io/common/imgs/me.png" height="200px">
       <div class="textSquere">
-        <p><a href="/me">me</a></p>
-        <p><a href="/product">product</a></p>
-        <p><a href="/generalAchievement">achievement</a></p>
+        <p><a href="/utsuhology.github.io/me">me</a></p>
+        <p><a href="/utsuhology.github.io/product">product</a></p>
+        <p><a href="/utsuhology.github.io/generalAchievement">achievement</a></p>
       </div>
       <div class="textSquere">
         <p>................</p>
